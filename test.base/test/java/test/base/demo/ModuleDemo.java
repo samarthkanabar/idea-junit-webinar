@@ -2,10 +2,10 @@
 
 public class ModuleDemo {
   public static void main(String[] args) {
-    String espected = "test.base";
+    String expected = "test.base";
     String actual = ModuleDemo.class.getModule().getName();
 
-    if (espected.equals(actual)) {
+    if (expected.equals(actual)) {
       System.out.println("ModuleDemo");
       return;
     }
